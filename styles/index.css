@@ -1,0 +1,99 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { background-color: #191919; }
+
+.container
+{
+    max-width: 1400px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.episodes__title-wr
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.episodes__title
+{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 124%;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.g-button
+{
+    border: none;
+    padding: 12px 20px;
+    background: #118DA8;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    color: #fff;
+}
+
+.episodes__card
+{
+    background: black;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    border-radius: 32px;
+    margin-bottom: 60px;
+}
+
+.episodes__card-img { width: 100%; }
+
+.episodes__card-info-category
+{
+    padding: 0 16px;
+    background: #191919;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.episodes__card-info-number
+{
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
+    color: #118da8;
+    margin-bottom: 20px;
+}
+
+.episodes__card-info-title
+{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.episodes__card-info-desk
+{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+}
