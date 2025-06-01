@@ -97,3 +97,63 @@ body { background-color: #191919; }
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 20px;
 }
+
+.paulaner__guest 
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.paulaner__guest-info
+{
+    width: 590px;
+    height: 448px;  
+    margin: 148px 0;
+    margin-right: 60px;
+}
+
+.paulaner__guest-img 
+{ 
+    width: 650px;
+    height: 743px;
+    border-radius: 12px;
+}
+
+.paulaner__guest-arrow
+{
+    width: 112px;
+    height: 112px;
+    margin-bottom: 20px;
+}
+
+.paulaner__guest-category
+{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #118da8;
+}
+
+.paulaner__guest-guest
+{
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 122%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.paulaner__guest-desk
+{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 30px;
+}
+
+
+
